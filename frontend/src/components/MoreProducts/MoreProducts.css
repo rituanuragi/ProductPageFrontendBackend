@@ -1,0 +1,61 @@
+.more-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  height: auto flex;
+  margin-top: 100px;
+  gap: 10px;
+  
+}
+/* .pricing-card {
+  display: flex; 
+  padding-top: 20px;
+  flex-direction: column;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin: 10px;
+  
+  width: 250px; /* Adjust width as needed */
+  /* height: auto flex; 
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  position: relative;
+}  */
+
+
+
+/* .back-link-container {
+  margin: 10px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+} */
+
+.back-link {
+  /* Your styles for the back link */
+}
+.back {
+  margin-bottom: 20px;
+  /*Addsomespacingbetweenthelinkandpricingcards*/padding: 10px 20px;
+  /*Addpaddingtocreateabutton-likeappearance*/background-color: #007bff;
+  /*Backgroundcolorforthelink*/color: #fff;
+  /*Textcolor*/border-radius: 5px;
+  /*Roundedcorners*/text-align: center;
+  /*Center-alignthetext*/text-decoration: none;
+  /*Removeunderlinesfromthelink*/display: inline-block;
+  /*Displayasaninline-blockelement*/transition: background-color 0.3s;
+
+  /*Addasmoothbackgroundcolortransitiononhover*//*Hovereffect:;
+  Changebackgroundcoloronhover*/
+  &:hover {
+    background-color: #0056b3;
+  }
+}

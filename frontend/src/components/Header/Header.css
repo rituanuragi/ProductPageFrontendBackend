@@ -1,0 +1,42 @@
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  position: fixed; /* Fixed positioning */
+  top: 0; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  width: 100%; /* Span the full viewport width */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.nav-links a.active {
+  border-bottom: 2px solid #007bff;
+}
+
+.sign-up-btn {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 2rem; /* Adjust this value as needed to move the button to the left */
+}
